@@ -39,7 +39,7 @@ class ChatClient(QWidget):
 
         self._connected = False
 
-        self.setWindowTitle("Secure Messenger 💬 (PyQt6)")
+        self.setWindowTitle("HALO Messanger")
         self.resize(600, 600)
 
         self.username = None
@@ -71,7 +71,7 @@ class ChatClient(QWidget):
         # Chat area
         self.chat_area = QTextEdit()
         self.chat_area.setReadOnly(True)
-        layout.addWidget(QLabel("💬 Чат:"))
+        layout.addWidget(QLabel("💬 Chat:"))
         layout.addWidget(self.chat_area)
 
         # Users list
