@@ -1,9 +1,9 @@
 # 🔐 Secure Messenger HALO
-**Secure Messenger** is an end-to-end encrypted chat application that allows users to exchange private messages with verified authenticity.
+**HALO** is an end-to-end encrypted chat application that allows users to exchange private messages with verified authenticity.
 
 The project combines modern cryptographic techniques to ensure:
 
-🔒 Confidentiality (no one but the recipient can read the message),
+- 🔒 Confidentiality (no one but the recipient can read the message),
 
 - ✅ Authenticity (messages are signed and verified),
 
@@ -16,7 +16,7 @@ Digital signatures using DSA (Digital Signature Algorithm)
 
 WebSocket-based server with FastAPI for real-time communication
 
-Multiple clients: terminal interface & GUI (PyQt6, Tkinter, Kivy)
+Multiple clients: terminal interface & GUI (PyQt6)
 
 User presence & key exchange handled through the server
 
@@ -28,7 +28,7 @@ DSA complements it by adding a layer of identity verification, ensuring that mes
 
 ## 💡 Use Case
 Imagine two people communicating over the internet.
-Secure Messenger ensures that:
+HALO Messenger ensures that:
 
 Only the intended recipient can read the message
 
@@ -43,9 +43,17 @@ pip install -r requirements.txt
 ```
 ### Now run this in your terminal:
 ```
-python client_ui.py
+python client.py
 ```
 or 
 ```
-python3 client_ui.py
+python3 client.py
 ```
+
+## 🙏 Credits
+
+| 🧾 Responsibility      | ✨ Contributor         |
+|------------------------|------------------------|
+| 📐 ECC development     | [Vlad](https://github.com/D-VLAD1)|
+| ✍️ DSA development     | [Iia](https://github.com/luftboud)|
+| 💆 Messenger logic        | [Vlad](https://github.com/D-VLAD1) & [Iia](https://github.com/luftboud)   |
